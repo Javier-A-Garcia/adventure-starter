@@ -46,8 +46,8 @@ class Room {
     getItemByName(name) {
 
         // Fill this in
+        return this.items.find(el => el.name === name.toLowerCase());
     }
-
 }
 
 module.exports = {
